@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RepuDash Privacy Policy</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.7; }
+    h1 { color: #1a1a2e; border-bottom: 2px solid #4F8EF7; padding-bottom: 12px; }
+    h2 { color: #1a1a2e; margin-top: 32px; }
+    ul { padding-left: 20px; }
+    a { color: #4F8EF7; }
+    .updated { color: #666; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <h1>RepuDash — Privacy Policy</h1>
+  <p class="updated">Last updated: March 17, 2026</p>
+
+  <h2>1. Overview</h2>
+  <p>RepuDash ("the Extension") is an AI-powered review and reputation management tool for Google Maps, Yelp, and TripAdvisor. This policy explains what data the Extension collects, how it is used, and your rights regarding that data.</p>
+
+  <h2>2. Data We Collect</h2>
+  <p>RepuDash collects and stores the following data <strong>locally on your device only</strong> (using Chrome's <code>chrome.storage.local</code> API):</p>
+  <ul>
+    <li><strong>Settings:</strong> Your business name, industry, preferred tone, and notification preferences.</li>
+    <li><strong>API Key:</strong> Your Gemini API key (stored locally, never transmitted to our servers).</li>
+    <li><strong>License Key:</strong> Your Gumroad license key for tier verification.</li>
+    <li><strong>Review History:</strong> Reviews you've generated AI responses for, along with the generated replies.</li>
+    <li><strong>Competitor Data:</strong> Business names, ratings, and review counts of competitors you choose to track.</li>
+    <li><strong>Usage Statistics:</strong> Daily reply counts for quota management.</li>
+  </ul>
+
+  <h2>3. Data We Do NOT Collect</h2>
+  <ul>
+    <li>We do <strong>not</strong> collect personal information such as your name, email, or browsing history.</li>
+    <li>We do <strong>not</strong> track your activity across websites.</li>
+    <li>We do <strong>not</strong> sell, share, or transmit your data to any third party (except as noted in Section 4).</li>
+    <li>We do <strong>not</strong> run analytics, telemetry, or tracking scripts.</li>
+  </ul>
+
+  <h2>4. Third-Party Services</h2>
+  <p>The Extension communicates with the following external services:</p>
+  <ul>
+    <li><strong>Google Gemini API</strong> (<code>generativelanguage.googleapis.com</code>): Your review text is sent to this API to generate AI-powered responses. This is done using <em>your own API key</em>. See <a href="https://ai.google.dev/terms" target="_blank">Google's AI Terms</a>.</li>
+    <li><strong>Gumroad License API</strong> (<code>api.gumroad.com</code>): Your license key is verified against Gumroad's servers to validate your subscription tier. No personal data is sent beyond the license key itself.</li>
+  </ul>
+
+  <h2>5. Data Storage & Security</h2>
+  <p>All data is stored locally on your device using Chrome's built-in <code>chrome.storage.local</code> API. No data is stored on external servers controlled by RepuDash. Your Gemini API key is stored in your browser's local storage and is only ever sent to Google's API endpoint.</p>
+
+  <h2>6. Permissions Explained</h2>
+  <ul>
+    <li><strong>storage:</strong> To save your settings, review history, and usage data locally.</li>
+    <li><strong>activeTab:</strong> To read review content on the current page for AI reply generation.</li>
+    <li><strong>sidePanel:</strong> To display the RepuDash dashboard panel alongside review pages.</li>
+    <li><strong>notifications:</strong> To alert you when new reviews are detected.</li>
+    <li><strong>alarms:</strong> To periodically check for new reviews and re-validate your license.</li>
+    <li><strong>downloads:</strong> To allow exporting QR codes and analytics reports.</li>
+    <li><strong>Host permissions (Google Maps, Yelp, TripAdvisor):</strong> To inject AI reply buttons on review pages.</li>
+    <li><strong>Host permission (Gemini API):</strong> To send review text for AI response generation.</li>
+    <li><strong>Host permission (Gumroad API):</strong> To verify license keys.</li>
+  </ul>
+
+  <h2>7. Your Rights</h2>
+  <ul>
+    <li>You can view all stored data at any time via the Extension's Options page.</li>
+    <li>You can delete all stored data by uninstalling the Extension or clearing Chrome's extension data.</li>
+    <li>You can revoke API access by removing your Gemini API key from the settings.</li>
+  </ul>
+
+  <h2>8. Children's Privacy</h2>
+  <p>RepuDash is not intended for use by individuals under the age of 13. We do not knowingly collect data from children.</p>
+
+  <h2>9. Changes to This Policy</h2>
+  <p>We may update this privacy policy from time to time. Any changes will be reflected by updating the "Last updated" date above.</p>
+
+  <h2>10. Contact</h2>
+  <p>For questions or concerns about this privacy policy, please contact us at <a href="mailto:glenthegm@gmail.com">glenthegm@gmail.com</a>.</p>
+</body>
+</html>
